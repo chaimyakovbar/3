@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+body .img-responsive {
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+  box-shadow: 10px 0px 20px 3px rgb(255, 255, 255);
+  margin-top: 50px;
+}
+body .picture2 {
+  display: none;
+}
+body .thumbnail:hover .picture1 {
+  display: none;
+}
+body .thumbnail:hover .picture2 {
+  display: block;
+}
+body .topcontainerBg {
+  filter: blur(10px);
+  background-color: rgb(184, 148, 148);
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+body .topcontainer {
+  font-size: 50px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+}
+body .btn {
+  border: none;
+}
+body .index2image {
+  height: 300px;
+  width: 300px;
+}
+body .bit {
+  font-size: 400px;
+}
+body .containerBg {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+body .containerBg .container {
+  height: 2000px;
+  position: absolute;
+  z-index: 0;
+}/*# sourceMappingURL=style.css.map */
